@@ -17,7 +17,9 @@ const app = express();
 const corsOptions = {
   origin: '*', // Permitir todas as origens
   methods: '*', // Métodos permitidos
-  allowedHeaders: '*', // Cabeçalhos permitidos
+  allowedHeaders: '*', 
+  preflightContinue: false,
+  optionsSuccessStatus: 204, // Cabeçalhos permitidos
 };
 
 // Aplicar o middleware CORS
