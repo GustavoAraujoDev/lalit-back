@@ -56,7 +56,7 @@ class produtoController {
   static async update(req, res) {
     try {
       const { nome, descricao, preco, precovenda, quantidade } = req.body;
-      const productid = req.params;
+      const productid = req.params.productid;
       logger.info(productid);
       const produto = {
         productid,
