@@ -13,15 +13,27 @@ const http = require('http');
 
 const app = express();
 
-// Middleware de CORS - permitindo todas as origens e todos os cabeçalhos
-app.use(cors({
+// Middleware de CORS
+const corsOptions = {
   origin: '*', // Permitir todas as origens
-  methods: '*', // Permitir todos os métodos
-  allowedHeaders: '*' // Permitir todos os cabeçalhos
-}));
+  methods: '*', // Métodos permitidos
+  allowedHeaders: '*', // Cabeçalhos permitidos
+};
+
+// Aplicar o middleware CORS
+app.use(cors(corsOptions));
+app.options('*', cors(corsOptions)); // Responder a todas as OPTIONS
 
 // Middleware para aceitar JSON
 app.use(express.json());
+
+// Middleware para tratamento de preflight (OPTIONS)
+app.options('*', (req, res) => {
+  res.header('Access-Control-Allow-Origin', '*'); // Permitir todas as origens
+  res.header('Access-Control-Allow-Methods', '*'); // Métodos permitidos
+  res.header('Access-Control-Allow-Headers', '*'); // Cabeçalhos permitidos
+  res.sendStatus(204); // Resposta OK sem conteúdo
+});
 
 // Rotas
 app.use('/Produtos', routesProduct);
@@ -36,6 +48,7 @@ app.use((req, res) => {
   res.status(404).json({ message: 'Rota não encontrada' });
 });
 
+// Inicialização do servidor
 const startServer = async () => {
   try {
     const controlFilePath = path.join(__dirname, 'db_initialized.txt');
