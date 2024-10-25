@@ -81,7 +81,7 @@ class produtoController {
 
   static async delete(req, res) {
     logger.info(req.params);
-    const { productid } = req.params;
+    const {productid} = req.params.productid;
     logger.info(productid);
     try {
       await ProdutoService.delete(productid);
