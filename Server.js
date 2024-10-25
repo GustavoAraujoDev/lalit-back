@@ -15,7 +15,7 @@ const http = require('http');
 const app = express();
 
 const corsOptions = {
-  origin: '*',
+  origin: 'https://lalita-sigma.vercel.app',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   optionsSuccessStatus: 200
 };
