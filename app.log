@@ -1,0 +1,398 @@
+2024-06-27T22:44:53.992Z [INFO]: Tabela Client criada com sucesso.
+2024-06-27T22:44:54.124Z [INFO]: Tabela Product criada com sucesso.
+2024-06-27T22:44:54.229Z [INFO]: Tabela Vendas criada com sucesso.
+2024-06-27T22:44:54.372Z [INFO]: Tabela ItensVenda criada com sucesso.
+2024-07-01T17:13:37.664Z [INFO]: Tabela Client criada com sucesso.
+2024-07-01T17:13:38.677Z [INFO]: Tabela Product criada com sucesso.
+2024-07-01T17:13:38.706Z [INFO]: Tabela Vendas criada com sucesso.
+2024-07-01T17:13:38.733Z [INFO]: Tabela ItensVenda criada com sucesso.
+2024-07-01T17:19:38.349Z [ERROR]: Erro ao buscar clientes: TypeError: db.all is not a function
+2024-07-01T17:22:50.871Z [INFO]: Tabela Client criada com sucesso.
+2024-07-01T17:22:50.888Z [INFO]: Tabela Product criada com sucesso.
+2024-07-01T17:22:50.890Z [INFO]: Tabela Vendas criada com sucesso.
+2024-07-01T17:22:50.892Z [INFO]: Tabela ItensVenda criada com sucesso.
+2024-07-01T17:30:38.552Z [INFO]: Tabela Client criada com sucesso.
+2024-07-01T17:30:38.570Z [INFO]: Tabela Product criada com sucesso.
+2024-07-01T17:30:38.572Z [INFO]: Tabela Vendas criada com sucesso.
+2024-07-01T17:30:38.576Z [INFO]: Tabela ItensVenda criada com sucesso.
+2024-07-01T17:39:44.596Z [ERROR]: Erro ao buscar clientes: TypeError: db.all is not a function
+2024-07-01T17:40:34.803Z [INFO]: Tabela Client criada com sucesso.
+2024-07-01T17:40:34.812Z [INFO]: Tabela Product criada com sucesso.
+2024-07-01T17:40:34.813Z [INFO]: Tabela Vendas criada com sucesso.
+2024-07-01T17:40:34.821Z [INFO]: Tabela ItensVenda criada com sucesso.
+2024-07-01T17:49:01.703Z [INFO]: Tabela Client criada com sucesso.
+2024-07-01T17:49:01.715Z [INFO]: Tabela Product criada com sucesso.
+2024-07-01T17:49:01.716Z [INFO]: Tabela Vendas criada com sucesso.
+2024-07-01T17:49:01.718Z [INFO]: Tabela ItensVenda criada com sucesso.
+2024-07-01T17:49:07.527Z [ERROR]: 
+2024-07-03T00:37:59.006Z [INFO]: Tabela Client criada com sucesso.
+2024-07-03T00:37:59.027Z [INFO]: Tabela Product criada com sucesso.
+2024-07-03T00:37:59.036Z [INFO]: Tabela Vendas criada com sucesso.
+2024-07-03T00:37:59.040Z [INFO]: Tabela ItensVenda criada com sucesso.
+2024-07-03T12:33:46.947Z [INFO]: Tabela Client criada com sucesso.
+2024-07-03T12:33:47.147Z [INFO]: Tabela Product criada com sucesso.
+2024-07-03T12:33:47.152Z [INFO]: Tabela Vendas criada com sucesso.
+2024-07-03T12:33:47.189Z [INFO]: Tabela ItensVenda criada com sucesso.
+2024-07-03T12:36:36.360Z [INFO]: Tabela Client criada com sucesso.
+2024-07-03T12:36:36.370Z [INFO]: Tabela Product criada com sucesso.
+2024-07-03T12:36:36.372Z [INFO]: Tabela Vendas criada com sucesso.
+2024-07-03T12:36:36.374Z [INFO]: Tabela ItensVenda criada com sucesso.
+2024-07-03T12:37:42.555Z [ERROR]: Error fetching products: 
+2024-07-03T12:37:42.560Z [ERROR]: Error fetching products: 
+2024-07-03T12:46:18.734Z [ERROR]: Error fetching products: 
+2024-07-03T12:46:18.795Z [ERROR]: Error fetching products: 
+2024-07-03T12:46:25.751Z [ERROR]: Error fetching products: 
+2024-07-03T12:46:25.753Z [ERROR]: Error fetching products: 
+2024-07-03T12:46:26.982Z [ERROR]: Error fetching products: 
+2024-07-03T12:46:26.984Z [ERROR]: Error fetching products: 
+2024-07-03T12:46:34.064Z [ERROR]: Error fetching products: 
+2024-07-03T12:46:34.075Z [ERROR]: Error fetching products: 
+2024-07-03T12:59:59.698Z [INFO]: Tabela Client criada com sucesso.
+2024-07-03T12:59:59.707Z [INFO]: Tabela Product criada com sucesso.
+2024-07-03T12:59:59.712Z [INFO]: Tabela Vendas criada com sucesso.
+2024-07-03T12:59:59.714Z [INFO]: Tabela ItensVenda criada com sucesso.
+2024-07-03T13:00:16.885Z [INFO]: Successfully fetched all products
+2024-07-03T13:04:08.288Z [INFO]: Tabela Client criada com sucesso.
+2024-07-03T13:04:08.300Z [INFO]: Tabela Product criada com sucesso.
+2024-07-03T13:04:08.308Z [INFO]: Tabela Vendas criada com sucesso.
+2024-07-03T13:04:08.314Z [INFO]: Tabela ItensVenda criada com sucesso.
+2024-07-03T13:04:18.238Z [INFO]: Successfully fetched all products
+2024-07-03T13:05:51.138Z [INFO]: Tabela Client criada com sucesso.
+2024-07-03T13:05:51.148Z [INFO]: Tabela Product criada com sucesso.
+2024-07-03T13:05:51.156Z [INFO]: Tabela Vendas criada com sucesso.
+2024-07-03T13:05:51.161Z [INFO]: Tabela ItensVenda criada com sucesso.
+2024-07-03T13:05:58.032Z [INFO]: Successfully fetched all products
+2024-07-03T13:10:17.047Z [INFO]: Tabela Client criada com sucesso.
+2024-07-03T13:10:17.060Z [INFO]: Tabela Product criada com sucesso.
+2024-07-03T13:10:17.071Z [INFO]: Tabela Vendas criada com sucesso.
+2024-07-03T13:10:17.077Z [INFO]: Tabela ItensVenda criada com sucesso.
+2024-07-03T13:10:22.916Z [INFO]: Successfully fetched all products
+2024-07-03T17:43:19.073Z [INFO]: Tabela Client criada com sucesso.
+2024-07-03T17:43:19.084Z [INFO]: Tabela Product criada com sucesso.
+2024-07-03T17:43:19.087Z [INFO]: Tabela Vendas criada com sucesso.
+2024-07-03T17:43:19.089Z [INFO]: Tabela ItensVenda criada com sucesso.
+2024-07-23T20:33:55.242Z [INFO]: Server is running on port 3000
+2024-07-24T13:10:12.429Z [INFO]: Server is running on port 3000
+2024-07-24T13:50:17.485Z [INFO]: Server is running on port 3000
+2024-07-24T13:58:04.931Z [INFO]: Server is running on port 3000
+2024-07-24T14:08:43.907Z [INFO]: Server is running on port 3000
+2024-07-24T14:11:52.615Z [ERROR]: Erro: schema.validate is not a function
+2024-07-24T14:15:43.100Z [ERROR]: Erro: schema.validate is not a function
+2024-07-24T14:15:49.265Z [ERROR]: Erro: schema.validate is not a function
+2024-07-24T14:23:01.195Z [INFO]: Server is running on port 3000
+2024-07-24T14:35:57.499Z [ERROR]: Erro: schema.validate is not a function
+2024-07-24T14:38:43.831Z [ERROR]: Erro: schema.validate is not a function
+2024-07-24T14:38:56.868Z [ERROR]: Erro: schema.validate is not a function
+2024-07-24T14:40:10.624Z [ERROR]: Erro: schema.validate is not a function
+2024-07-24T14:45:00.876Z [INFO]: Server is running on port 3000
+2024-07-24T14:45:43.779Z [ERROR]: Erro: schema.validate is not a function
+2024-07-24T14:51:37.526Z [INFO]: Server is running on port 3000
+2024-07-24T14:51:46.467Z [ERROR]: Erro: Validation error: CPF must be 11 digits,
+Validation error: Telefone must be a valid phone number
+2024-07-24T14:59:56.950Z [INFO]: Server is running on port 3000
+2024-07-24T15:00:03.140Z [ERROR]: Erro: Validation error: CPF must be 11 digits,
+Validation error: Telefone must be a valid phone number
+2024-07-24T15:04:01.635Z [INFO]: Server is running on port 3000
+2024-07-24T15:04:05.978Z [ERROR]: Erro: Validation error: CPF must be 11 digits,
+Validation error: Telefone must be a valid phone number
+2024-07-24T15:04:27.366Z [ERROR]: Erro: Validation error: Telefone must be a valid phone number
+2024-07-24T15:16:50.094Z [INFO]: Server is running on port 3000
+2024-07-24T16:30:07.381Z [INFO]: Server is running on port 3000
+2024-07-24T16:35:15.451Z [INFO]: Server is running on port 3000
+2024-07-24T17:07:59.161Z [INFO]: Server is running on port 3000
+2024-07-24T17:14:08.887Z [INFO]: Server is running on port 3000
+2024-07-24T17:32:50.035Z [INFO]: Server is running on port 3000
+2024-07-24T17:50:31.733Z [INFO]: Server is running on port 3000
+2024-07-24T18:00:22.812Z [INFO]: Server is running on port 3000
+2024-07-24T20:11:03.967Z [INFO]: Server is running on port 3000
+2024-07-26T22:16:48.887Z [INFO]: Server is running on port 3000
+2024-07-26T22:49:13.342Z [INFO]: Server is running on port 3000
+2024-07-26T23:01:32.872Z [ERROR]: Erro: Expected double-quoted property name in JSON at position 121
+2024-07-26T23:12:47.575Z [INFO]: Server is running on port 3000
+2024-07-26T23:14:51.786Z [INFO]: Server is running on port 3000
+2024-07-26T23:30:55.435Z [INFO]: Server is running on port 3000
+2024-07-26T23:34:10.169Z [INFO]: Server is running on port 3000
+2024-07-26T23:38:08.547Z [INFO]: Server is running on port 3000
+2024-07-26T23:40:09.378Z [ERROR]: Erro: Expected double-quoted property name in JSON at position 101
+2024-07-26T23:40:13.693Z [ERROR]: Erro: Expected double-quoted property name in JSON at position 101
+2024-07-26T23:59:31.022Z [INFO]: Server is running on port 3000
+2024-07-27T00:12:45.761Z [INFO]: Server is running on port 3000
+2024-07-27T00:16:29.810Z [ERROR]: Erro: Expected ',' or '}' after property value in JSON at position 291
+2024-07-27T00:16:37.321Z [ERROR]: Erro: Expected ',' or '}' after property value in JSON at position 291
+2024-07-28T16:19:57.719Z [INFO]: Server is running on port 3000
+2024-07-29T15:21:09.997Z [INFO]: Server is running on port 3000
+2024-10-09T09:51:16.786Z [INFO]: Server is running on port 3000
+2024-10-09T14:54:08.891Z [INFO]: Server is running on port 3000
+2024-10-09T17:10:37.991Z [INFO]: Server is running on port 3000
+2024-10-09T17:17:08.048Z [INFO]: Server is running on port 3000
+2024-10-09T17:26:17.360Z [ERROR]: Erro ao buscar produtos: Cannot read properties of undefined (reading '_checkNotDeleted')
+2024-10-09T17:26:26.007Z [ERROR]: Erro ao buscar produtos: Cannot read properties of undefined (reading '_checkNotDeleted')
+2024-10-09T17:26:27.534Z [ERROR]: Erro ao buscar produtos: Cannot read properties of undefined (reading '_checkNotDeleted')
+2024-10-09T17:26:28.360Z [ERROR]: Erro ao buscar produtos: Cannot read properties of undefined (reading '_checkNotDeleted')
+2024-10-09T17:26:28.508Z [ERROR]: Erro ao buscar produtos: Cannot read properties of undefined (reading '_checkNotDeleted')
+2024-10-09T17:26:28.685Z [ERROR]: Erro ao buscar produtos: Cannot read properties of undefined (reading '_checkNotDeleted')
+2024-10-09T17:26:28.889Z [ERROR]: Erro ao buscar produtos: Cannot read properties of undefined (reading '_checkNotDeleted')
+2024-10-09T17:30:55.608Z [INFO]: Server is running on port 3000
+2024-10-09T17:30:59.802Z [ERROR]: Erro ao buscar produtos: ProdutoService.getAll is not a function
+2024-10-09T17:31:01.735Z [ERROR]: Erro ao buscar produtos: ProdutoService.getAll is not a function
+2024-10-09T17:31:02.633Z [ERROR]: Erro ao buscar produtos: ProdutoService.getAll is not a function
+2024-10-09T17:31:04.948Z [ERROR]: Erro ao buscar produtos: ProdutoService.getAll is not a function
+2024-10-09T17:31:05.846Z [ERROR]: Erro ao buscar produtos: ProdutoService.getAll is not a function
+2024-10-09T17:31:06.617Z [ERROR]: Erro ao buscar produtos: ProdutoService.getAll is not a function
+2024-10-09T17:31:07.471Z [ERROR]: Erro ao buscar produtos: ProdutoService.getAll is not a function
+2024-10-09T17:32:05.017Z [INFO]: Server is running on port 3000
+2024-10-09T17:32:10.115Z [ERROR]: Erro ao buscar produtos: Cannot read properties of undefined (reading '_checkNotDeleted')
+2024-10-09T17:32:16.118Z [ERROR]: Erro ao buscar produtos: Cannot read properties of undefined (reading '_checkNotDeleted')
+2024-10-09T17:42:58.127Z [INFO]: Server is running on port 3000
+2024-10-09T17:43:03.109Z [INFO]: Nenhum produto encontrado.
+2024-10-09T17:47:50.884Z [INFO]: Server is running on port 3000
+2024-10-09T17:48:13.494Z [INFO]: Nenhuma Venda encontrada.
+2024-10-09T17:48:13.495Z [INFO]: Todas as vendas recuperadas com sucesso
+2024-10-09T18:36:02.723Z [INFO]: Server is running on port 3000
+2024-10-09T18:48:33.545Z [ERROR]: Unable to connect to the database: ENOENT: no such file or directory, open 'C:\Users\Gustavo Araujo\Downloads\VendaPro\sistemasdevendasgstvback\caminho\para\seu\certificado.key'
+2024-10-09T18:49:39.586Z [INFO]: Server is running on https://localhost:3000
+2024-10-09T18:54:51.401Z [INFO]: Server is running on https://localhost:3000
+2024-10-09T19:01:45.057Z [INFO]: Nenhum produto encontrado.
+2024-10-09T19:01:49.476Z [INFO]: Nenhum produto encontrado.
+2024-10-09T19:08:38.930Z [INFO]: Nenhum produto encontrado.
+2024-10-09T19:08:44.588Z [INFO]: Nenhum produto encontrado.
+2024-10-09T19:08:48.710Z [INFO]: Nenhum produto encontrado.
+2024-10-10T12:40:10.503Z [INFO]: Nenhum produto encontrado.
+2024-10-10T13:11:32.846Z [INFO]: Nenhum produto encontrado.
+2024-10-10T13:12:21.186Z [INFO]: Produto salvo com sucesso!
+2024-10-10T13:12:27.224Z [INFO]: Produto salvo com sucesso!
+2024-10-10T13:31:48.035Z [INFO]: Produto salvo com sucesso!
+2024-10-10T14:21:45.379Z [INFO]: Produto salvo com sucesso!
+2024-10-10T15:39:20.210Z [INFO]: Server is running on https://localhost:3000
+2024-10-11T13:59:23.976Z [INFO]: Server is running on https://localhost:3000
+2024-10-11T14:03:14.519Z [INFO]: Server is running on https://localhost:6060
+2024-10-11T14:13:28.221Z [INFO]: Nenhuma Venda encontrada.
+2024-10-11T14:13:28.274Z [INFO]: Todas as vendas recuperadas com sucesso
+2024-10-11T14:13:28.578Z [INFO]: Nenhuma Venda encontrada.
+2024-10-11T14:13:28.579Z [INFO]: Todas as vendas recuperadas com sucesso
+2024-10-11T14:59:32.079Z [INFO]: Server is running on https://localhost:6060
+2024-10-11T15:09:46.681Z [INFO]: Nenhuma Venda encontrada.
+2024-10-11T15:09:46.778Z [INFO]: Todas as vendas recuperadas com sucesso
+2024-10-11T15:09:47.231Z [INFO]: Nenhuma Venda encontrada.
+2024-10-11T15:09:47.232Z [INFO]: Todas as vendas recuperadas com sucesso
+2024-10-11T15:13:14.899Z [INFO]: Nenhuma Venda encontrada.
+2024-10-11T15:13:14.975Z [INFO]: Todas as vendas recuperadas com sucesso
+2024-10-11T15:13:15.339Z [INFO]: Nenhuma Venda encontrada.
+2024-10-11T15:13:15.395Z [INFO]: Todas as vendas recuperadas com sucesso
+2024-10-11T16:24:45.791Z [INFO]: Server is running on https://localhost:6060
+2024-10-11T16:30:40.022Z [INFO]: Server is running on https://localhost:6060
+2024-10-11T17:07:56.183Z [INFO]: Server is running on https://localhost:6060
+2024-10-11T17:12:31.695Z [ERROR]: Erro ao adicionar produto: ProdutoService is not defined
+2024-10-11T17:12:35.809Z [ERROR]: Erro ao adicionar produto: ProdutoService is not defined
+2024-10-11T17:13:31.026Z [INFO]: Server is running on https://localhost:6060
+2024-10-11T17:14:18.041Z [ERROR]: Erro ao adicionar produto: clienteService.create is not a function
+2024-10-11T17:14:19.555Z [ERROR]: Erro ao adicionar produto: clienteService.create is not a function
+2024-10-11T17:18:28.778Z [INFO]: Server is running on https://localhost:6060
+2024-10-11T17:19:13.516Z [ERROR]: Erro ao adicionar produto: clienteService.save is not a function
+2024-10-11T17:19:15.833Z [ERROR]: Erro ao adicionar produto: clienteService.save is not a function
+2024-10-11T17:19:16.733Z [ERROR]: Erro ao adicionar produto: clienteService.save is not a function
+2024-10-11T17:19:16.863Z [ERROR]: Erro ao adicionar produto: clienteService.save is not a function
+2024-10-11T17:19:17.066Z [ERROR]: Erro ao adicionar produto: clienteService.save is not a function
+2024-10-11T17:21:19.271Z [INFO]: Server is running on https://localhost:6060
+2024-10-11T17:21:25.775Z [ERROR]: Erro ao adicionar produto: clienteService.save is not a function
+2024-10-11T17:22:35.610Z [INFO]: Produto salvo com sucesso!
+2024-10-11T17:28:58.287Z [INFO]: Server is running on https://localhost:6060
+2024-10-11T17:29:32.787Z [ERROR]: Erro ao adicionar Cliente: clienteService.save is not a function
+2024-10-11T17:34:59.983Z [INFO]: Server is running on https://localhost:6060
+2024-10-11T17:35:30.847Z [ERROR]: Erro ao adicionar Cliente: logger is not defined
+2024-10-11T17:38:30.511Z [ERROR]: Erro ao adicionar Cliente: logger is not defined
+2024-10-11T17:38:34.762Z [ERROR]: Erro ao adicionar Cliente: logger is not defined
+2024-10-11T17:38:36.095Z [ERROR]: Erro ao adicionar Cliente: logger is not defined
+2024-10-11T17:38:36.292Z [ERROR]: Erro ao adicionar Cliente: logger is not defined
+2024-10-11T17:38:36.428Z [ERROR]: Erro ao adicionar Cliente: logger is not defined
+2024-10-11T17:38:36.713Z [ERROR]: Erro ao adicionar Cliente: logger is not defined
+2024-10-11T17:38:36.941Z [ERROR]: Erro ao adicionar Cliente: logger is not defined
+2024-10-11T17:40:39.398Z [INFO]: Server is running on https://localhost:6060
+2024-10-11T17:40:48.645Z [ERROR]: Erro ao adicionar Cliente: logger is not defined
+2024-10-11T17:49:57.988Z [INFO]: Server is running on https://localhost:6060
+2024-10-11T17:50:08.956Z [ERROR]: Erro ao adicionar Cliente: logger is not defined
+2024-10-11T17:51:34.507Z [INFO]: Server is running on https://localhost:6060
+2024-10-11T17:54:15.097Z [INFO]: Server is running on https://localhost:6060
+2024-10-11T17:54:56.897Z [INFO]: Produto salvo com sucesso!
+2024-10-11T17:54:56.899Z [INFO]: Cliente adicionado com sucesso!
+2024-10-11T17:57:53.216Z [INFO]: Server is running on https://localhost:6060
+2024-10-11T17:59:12.150Z [INFO]: Server is running on https://localhost:6060
+2024-10-11T17:59:20.279Z [ERROR]: Erro ao adicionar Cliente: logger is not defined
+2024-10-11T18:01:26.651Z [INFO]: Server is running on https://localhost:6060
+2024-10-11T18:01:32.195Z [ERROR]: Erro ao adicionar Cliente: console is not a function
+2024-10-11T18:07:17.157Z [INFO]: Server is running on https://localhost:6060
+2024-10-11T18:07:24.758Z [INFO]: Cliente salvo com sucesso!
+2024-10-11T23:36:25.814Z [INFO]: Server is running on https://localhost:6060
+2024-10-11T23:48:46.781Z [INFO]: Server is running on https://localhost:6060
+2024-10-11T23:57:23.416Z [INFO]: Nenhum produto encontrado.
+2024-10-11T23:57:27.661Z [INFO]: Nenhum produto encontrado.
+2024-10-12T00:04:07.537Z [INFO]: Server is running on https://localhost:6060
+2024-10-12T00:06:40.651Z [INFO]: Nenhum produto encontrado.
+2024-10-12T00:06:40.874Z [INFO]: Nenhum produto encontrado.
+2024-10-12T00:06:59.691Z [INFO]: Produto salvo com sucesso!
+2024-10-12T00:07:36.435Z [INFO]: Produto deletado com sucesso!
+2024-10-12T00:07:47.289Z [INFO]: Nenhum produto encontrado.
+2024-10-12T00:07:47.498Z [INFO]: Nenhum produto encontrado.
+2024-10-12T00:10:06.878Z [INFO]: Server is running on https://localhost:6060
+2024-10-12T00:16:38.547Z [INFO]: Produto deletado com sucesso!
+2024-10-12T00:17:42.470Z [INFO]: Produto deletado com sucesso!
+2024-10-12T00:18:06.812Z [INFO]: Nenhum produto encontrado.
+2024-10-12T00:18:07.061Z [INFO]: Nenhum produto encontrado.
+2024-10-12T00:22:59.345Z [INFO]: Nenhum produto encontrado.
+2024-10-12T00:23:42.613Z [INFO]: Nenhum produto encontrado.
+2024-10-12T00:23:44.504Z [INFO]: Nenhum produto encontrado.
+2024-10-12T00:27:00.571Z [INFO]: Nenhum produto encontrado.
+2024-10-12T00:33:18.717Z [INFO]: Server is running on https://localhost:6060
+2024-10-12T00:33:34.419Z [INFO]: Cliente salvo com sucesso!
+2024-10-12T00:43:01.127Z [INFO]: Cliente deletado com sucesso!
+2024-10-12T10:38:30.469Z [INFO]: Server is running on https://localhost:6060
+2024-10-12T10:41:29.863Z [INFO]: Nenhum produto encontrado.
+2024-10-12T10:41:31.928Z [INFO]: Nenhum produto encontrado.
+2024-10-12T10:41:49.025Z [INFO]: Cliente salvo com sucesso!
+2024-10-12T10:43:32.944Z [INFO]: Produto salvo com sucesso!
+2024-10-12T10:44:26.026Z [INFO]: Produto salvo com sucesso!
+2024-10-12T10:45:34.682Z [INFO]: Nenhuma Venda encontrada.
+2024-10-12T10:45:34.685Z [INFO]: Todas as vendas recuperadas com sucesso
+2024-10-12T10:45:34.884Z [INFO]: Nenhuma Venda encontrada.
+2024-10-12T10:45:34.885Z [INFO]: Todas as vendas recuperadas com sucesso
+2024-10-12T10:54:25.591Z [INFO]: Nenhuma Venda encontrada.
+2024-10-12T10:54:25.594Z [INFO]: Todas as vendas recuperadas com sucesso
+2024-10-12T10:54:25.989Z [INFO]: Nenhuma Venda encontrada.
+2024-10-12T10:54:26.031Z [INFO]: Todas as vendas recuperadas com sucesso
+2024-10-12T10:57:56.950Z [INFO]: Nenhuma Venda encontrada.
+2024-10-12T10:57:56.951Z [INFO]: Todas as vendas recuperadas com sucesso
+2024-10-12T10:57:57.243Z [INFO]: Nenhuma Venda encontrada.
+2024-10-12T10:57:57.244Z [INFO]: Todas as vendas recuperadas com sucesso
+2024-10-12T11:02:52.523Z [INFO]: Nenhuma Venda encontrada.
+2024-10-12T11:02:52.526Z [INFO]: Todas as vendas recuperadas com sucesso
+2024-10-12T11:02:52.793Z [INFO]: Nenhuma Venda encontrada.
+2024-10-12T11:02:52.803Z [INFO]: Todas as vendas recuperadas com sucesso
+2024-10-12T11:06:48.639Z [INFO]: Nenhuma Venda encontrada.
+2024-10-12T11:06:48.640Z [INFO]: Todas as vendas recuperadas com sucesso
+2024-10-12T11:06:50.178Z [INFO]: Nenhuma Venda encontrada.
+2024-10-12T11:06:50.179Z [INFO]: Todas as vendas recuperadas com sucesso
+2024-10-12T11:07:33.923Z [INFO]: Produto deletado com sucesso!
+2024-10-12T11:13:42.448Z [INFO]: Nenhuma Venda encontrada.
+2024-10-12T11:13:43.480Z [INFO]: Todas as vendas recuperadas com sucesso
+2024-10-12T11:13:43.722Z [INFO]: Nenhuma Venda encontrada.
+2024-10-12T11:13:43.723Z [INFO]: Todas as vendas recuperadas com sucesso
+2024-10-12T11:19:28.071Z [INFO]: Nenhuma Venda encontrada.
+2024-10-12T11:19:28.857Z [INFO]: Todas as vendas recuperadas com sucesso
+2024-10-12T11:19:29.581Z [INFO]: Nenhuma Venda encontrada.
+2024-10-12T11:19:29.595Z [INFO]: Todas as vendas recuperadas com sucesso
+2024-10-12T11:21:20.988Z [INFO]: Nenhuma Venda encontrada.
+2024-10-12T11:21:20.989Z [INFO]: Todas as vendas recuperadas com sucesso
+2024-10-12T11:21:21.206Z [INFO]: Nenhuma Venda encontrada.
+2024-10-12T11:21:21.207Z [INFO]: Todas as vendas recuperadas com sucesso
+2024-10-12T11:25:24.526Z [INFO]: Nenhuma Venda encontrada.
+2024-10-12T11:25:25.312Z [INFO]: Todas as vendas recuperadas com sucesso
+2024-10-12T11:25:25.514Z [INFO]: Nenhuma Venda encontrada.
+2024-10-12T11:25:25.518Z [INFO]: Todas as vendas recuperadas com sucesso
+2024-10-12T17:17:59.661Z [INFO]: Server is running on https://localhost:6060
+2024-10-12T17:18:27.348Z [INFO]: Nenhuma Venda encontrada.
+2024-10-12T17:18:27.349Z [INFO]: Todas as vendas recuperadas com sucesso
+2024-10-12T17:18:27.564Z [INFO]: Nenhuma Venda encontrada.
+2024-10-12T17:18:27.573Z [INFO]: Todas as vendas recuperadas com sucesso
+2024-10-12T20:13:32.377Z [INFO]: Produto deletado com sucesso!
+2024-10-12T20:14:29.954Z [INFO]: Produto deletado com sucesso!
+2024-10-12T20:32:36.189Z [INFO]: Server is running on https://localhost:6060
+2024-10-12T20:38:00.480Z [INFO]: id
+2024-10-12T20:38:00.838Z [INFO]: Produto deletado com sucesso!
+2024-10-12T20:40:53.309Z [INFO]: id
+2024-10-12T20:40:53.601Z [INFO]: Produto deletado com sucesso!
+2024-10-12T20:44:02.681Z [INFO]: Server is running on https://localhost:6060
+2024-10-12T20:44:55.042Z [INFO]: undefined
+2024-10-12T20:44:55.278Z [INFO]: Produto deletado com sucesso!
+2024-10-12T20:55:48.295Z [INFO]: Server is running on https://localhost:6060
+2024-10-12T20:56:09.997Z [INFO]: [object Object]
+2024-10-12T20:56:10.000Z [INFO]: 0
+2024-10-12T20:56:10.249Z [INFO]: Produto deletado com sucesso!
+2024-10-12T20:57:49.633Z [INFO]: [object Object]
+2024-10-12T20:57:49.635Z [INFO]: 0
+2024-10-12T20:57:49.828Z [INFO]: Produto deletado com sucesso!
+2024-10-12T20:58:15.546Z [INFO]: Nenhuma Venda encontrada.
+2024-10-12T20:58:15.555Z [INFO]: Todas as vendas recuperadas com sucesso
+2024-10-12T20:58:15.777Z [INFO]: Nenhuma Venda encontrada.
+2024-10-12T20:58:15.779Z [INFO]: Todas as vendas recuperadas com sucesso
+2024-10-12T20:58:22.703Z [INFO]: Nenhuma Venda encontrada.
+2024-10-12T20:58:22.704Z [INFO]: Todas as vendas recuperadas com sucesso
+2024-10-12T20:58:23.064Z [INFO]: Nenhuma Venda encontrada.
+2024-10-12T20:58:23.077Z [INFO]: Todas as vendas recuperadas com sucesso
+2024-10-13T12:54:15.550Z [INFO]: Nenhuma Venda encontrada.
+2024-10-13T12:54:16.360Z [INFO]: Todas as vendas recuperadas com sucesso
+2024-10-13T12:54:21.259Z [INFO]: Nenhuma Venda encontrada.
+2024-10-13T12:54:21.261Z [INFO]: Todas as vendas recuperadas com sucesso
+2024-10-13T12:59:28.093Z [INFO]: Nenhuma Venda encontrada.
+2024-10-13T12:59:28.210Z [INFO]: Todas as vendas recuperadas com sucesso
+2024-10-13T12:59:28.418Z [INFO]: Nenhuma Venda encontrada.
+2024-10-13T12:59:28.749Z [INFO]: Todas as vendas recuperadas com sucesso
+2024-10-13T13:04:09.752Z [INFO]: [object Object]
+2024-10-13T13:04:09.776Z [INFO]: 1
+2024-10-13T13:04:10.599Z [INFO]: Produto deletado com sucesso!
+2024-10-13T13:04:16.711Z [INFO]: Nenhum produto encontrado.
+2024-10-13T13:04:17.388Z [INFO]: Nenhum produto encontrado.
+2024-10-13T13:07:46.015Z [INFO]: Produto salvo com sucesso!
+2024-10-13T13:08:47.454Z [INFO]: Produto salvo com sucesso!
+2024-10-13T13:09:32.697Z [INFO]: [object Object]
+2024-10-13T13:09:32.698Z [INFO]: 1
+2024-10-13T13:09:32.891Z [INFO]: Produto deletado com sucesso!
+2024-10-13T13:09:54.050Z [INFO]: Nenhuma Venda encontrada.
+2024-10-13T13:09:54.051Z [INFO]: Todas as vendas recuperadas com sucesso
+2024-10-13T13:09:54.262Z [INFO]: Nenhuma Venda encontrada.
+2024-10-13T13:09:54.264Z [INFO]: Todas as vendas recuperadas com sucesso
+2024-10-13T13:16:21.944Z [INFO]: Server is running on https://localhost:6060
+2024-10-13T13:26:52.215Z [INFO]: Nenhuma Venda encontrada.
+2024-10-13T13:26:52.216Z [INFO]: Todas as vendas recuperadas com sucesso
+2024-10-13T13:26:52.430Z [INFO]: Nenhuma Venda encontrada.
+2024-10-13T13:26:52.431Z [INFO]: Todas as vendas recuperadas com sucesso
+2024-10-13T13:27:18.843Z [INFO]: [object Object]
+2024-10-13T13:27:18.850Z [INFO]: 0
+2024-10-13T13:27:19.048Z [INFO]: Produto deletado com sucesso!
+2024-10-13T13:27:46.651Z [INFO]: Produto salvo com sucesso!
+2024-10-13T13:28:05.083Z [INFO]: Produto salvo com sucesso!
+2024-10-13T13:28:38.828Z [INFO]: [object Object]
+2024-10-13T13:28:38.851Z [INFO]: 0
+2024-10-13T13:28:39.075Z [INFO]: Produto deletado com sucesso!
+2024-10-13T13:29:32.739Z [INFO]: Nenhuma Venda encontrada.
+2024-10-13T13:29:32.754Z [INFO]: Todas as vendas recuperadas com sucesso
+2024-10-13T13:29:32.759Z [INFO]: Nenhum produto encontrado.
+2024-10-13T13:29:33.011Z [INFO]: Nenhuma Venda encontrada.
+2024-10-13T13:29:33.015Z [INFO]: Todas as vendas recuperadas com sucesso
+2024-10-13T13:29:33.018Z [INFO]: Nenhum produto encontrado.
+2024-10-13T13:29:45.430Z [INFO]: Nenhum produto encontrado.
+2024-10-13T13:29:45.647Z [INFO]: Nenhum produto encontrado.
+2024-10-13T13:30:07.446Z [INFO]: Produto salvo com sucesso!
+2024-10-13T13:30:36.249Z [INFO]: Produto salvo com sucesso!
+2024-10-13T13:30:50.750Z [INFO]: [object Object]
+2024-10-13T13:30:50.771Z [INFO]: 3
+2024-10-13T13:30:50.965Z [INFO]: Produto deletado com sucesso!
+2024-10-13T13:31:41.038Z [INFO]: Produto salvo com sucesso!
+2024-10-13T13:31:58.140Z [INFO]: [object Object]
+2024-10-13T13:31:58.143Z [INFO]: 4
+2024-10-13T13:31:58.337Z [INFO]: Produto deletado com sucesso!
+2024-10-14T13:26:34.154Z [INFO]: Server is running on https://localhost:6060
+2024-10-14T13:37:53.051Z [INFO]: Nenhuma Venda encontrada.
+2024-10-14T13:37:53.144Z [INFO]: Todas as vendas recuperadas com sucesso
+2024-10-14T13:37:53.441Z [INFO]: Nenhuma Venda encontrada.
+2024-10-14T13:37:53.445Z [INFO]: Todas as vendas recuperadas com sucesso
+2024-10-14T15:39:30.870Z [INFO]: Nenhuma Venda encontrada.
+2024-10-14T15:39:31.988Z [INFO]: Todas as vendas recuperadas com sucesso
+2024-10-14T15:39:32.349Z [INFO]: Nenhuma Venda encontrada.
+2024-10-14T15:39:33.062Z [INFO]: Todas as vendas recuperadas com sucesso
+2024-10-14T16:45:12.047Z [INFO]: Nenhuma Venda encontrada.
+2024-10-14T16:45:12.828Z [INFO]: Todas as vendas recuperadas com sucesso
+2024-10-14T16:45:19.034Z [INFO]: Nenhuma Venda encontrada.
+2024-10-14T16:45:19.091Z [INFO]: Todas as vendas recuperadas com sucesso
+2024-10-15T21:36:42.871Z [INFO]: Server is running on https://localhost:6060
+2024-10-15T23:32:58.852Z [INFO]: Nenhuma Venda encontrada.
+2024-10-15T23:32:59.349Z [INFO]: Todas as vendas recuperadas com sucesso
+2024-10-15T23:33:04.328Z [INFO]: Nenhuma Venda encontrada.
+2024-10-15T23:33:04.333Z [INFO]: Todas as vendas recuperadas com sucesso
+2024-10-15T23:33:52.390Z [INFO]: Nenhuma Venda encontrada.
+2024-10-15T23:33:52.410Z [INFO]: Todas as vendas recuperadas com sucesso
+2024-10-15T23:33:52.917Z [INFO]: Nenhuma Venda encontrada.
+2024-10-15T23:33:52.918Z [INFO]: Todas as vendas recuperadas com sucesso
+2024-10-16T00:14:13.310Z [INFO]: Nenhuma Venda encontrada.
+2024-10-16T00:14:14.697Z [INFO]: Todas as vendas recuperadas com sucesso
+2024-10-16T00:14:15.586Z [INFO]: Nenhuma Venda encontrada.
+2024-10-16T00:14:17.313Z [INFO]: Todas as vendas recuperadas com sucesso
