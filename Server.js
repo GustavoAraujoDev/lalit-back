@@ -13,15 +13,8 @@ const http = require('http');
 
 const app = express();
 
-// Configurações de CORS
-const corsOptions = {
-  origin: 'https://lalita-sigma.vercel.app', // URL do seu frontend
-  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'], // Métodos permitidos
-  allowedHeaders: ['Origin', 'X-Requested-With', 'Content-Type', 'Accept'], // Cabeçalhos permitidos
-};
-
 // Middleware de CORS
-app.use(cors(corsOptions));
+app.use(cors());
 
 // Middleware para aceitar JSON
 app.use(express.json());
