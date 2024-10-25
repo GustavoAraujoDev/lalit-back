@@ -17,8 +17,7 @@ const app = express();
 const corsOptions = {
   origin: '*',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
-  allowedHeaders: ['Content-Type', 'Authorization'], // Especifique os cabeçalhos permitidos
-  optionsSuccessStatus: 200,
+  optionsSuccessStatus: 200
 };
 
 app.use(cors(corsOptions));
