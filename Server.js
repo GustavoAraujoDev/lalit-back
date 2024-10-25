@@ -1,6 +1,5 @@
 const fs = require('fs');
 const path = require('path');
-const { Sequelize } = require('sequelize');
 const express = require('express');
 const cors = require('cors');
 const routesProduct = require('./Routes/ProductRoutes');
@@ -17,6 +16,7 @@ const app = express();
 const corsOptions = {
   origin: 'https://lalita-sigma.vercel.app',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
   optionsSuccessStatus: 200,
 };
 
@@ -45,17 +45,16 @@ const startServer = async () => {
     const controlFilePath = path.join(__dirname, 'db_initialized.txt');
 
     if (!fs.existsSync(controlFilePath)) {
-      await sequelize
-        .sync({ force: true }) // Define se deseja forçar a recriação das tabelas
+      await sequelize.sync({ force: true }) // Forçar a recriação das tabelas
         .then(() => {
-          console.log('Database synchronized');
+          Logger.info('Database synchronized');
           fs.writeFileSync(controlFilePath, 'Database initialized.');
         })
         .catch((err) => {
-          console.error('Error synchronizing database:', err);
+          Logger.error('Error synchronizing database:', err);
         });
     } else {
-      console.log('Database already initialized.');
+      Logger.info('Database already initialized.');
     }
 
     http.createServer(app).listen(PORT, () => {
