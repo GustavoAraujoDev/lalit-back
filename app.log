@@ -396,3 +396,5 @@ Validation error: Telefone must be a valid phone number
 2024-10-16T00:14:14.697Z [INFO]: Todas as vendas recuperadas com sucesso
 2024-10-16T00:14:15.586Z [INFO]: Nenhuma Venda encontrada.
 2024-10-16T00:14:17.313Z [INFO]: Todas as vendas recuperadas com sucesso
+2024-10-25T22:02:32.336Z [INFO]: Database already initialized.
+2024-10-25T22:02:32.365Z [INFO]: Server is running on http://localhost:6060

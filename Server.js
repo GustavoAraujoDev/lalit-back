@@ -13,9 +13,13 @@ const http = require('http');
 
 const app = express();
 
-// Middleware de CORS
-app.use(cors());
-app.options('*', cors()); // Permitir todas as OPTIONS
+// Middleware de CORS - permitindo todas as origens e todos os cabeçalhos
+app.use(cors({
+  origin: '*', // Permitir todas as origens
+  methods: '*', // Permitir todos os métodos
+  allowedHeaders: '*' // Permitir todos os cabeçalhos
+}));
+
 // Middleware para aceitar JSON
 app.use(express.json());
 
