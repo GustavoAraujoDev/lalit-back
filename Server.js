@@ -1,7 +1,6 @@
 const fs = require('fs');
 const path = require('path');
 const express = require('express');
-const cors = require('cors');
 const routesProduct = require('./Routes/ProductRoutes');
 const routesVendas = require('./Routes/VendasRoutes');
 const routesCliente = require('./Routes/ClienteRoutes');
@@ -13,18 +12,18 @@ const http = require('http');
 
 const app = express();
 
-const corsOptions = {
-  origin: 'https://lalita-sigma.vercel.app',
-  methods: ['GET', 'POST', 'PUT', 'DELETE'],
-  allowedHeaders: ['Content-Type', 'Authorization'],
-  optionsSuccessStatus: 200,
-};
-
-// Middleware de CORS
-app.use(cors(corsOptions));
+// Middleware de CORS manual
+app.use((req, res, next) => {
+  res.header("Access-Control-Allow-Origin", "https://lalita-sigma.vercel.app"); // Substitua pela URL do seu frontend
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept"); // Removido 'Authorization'
+  res.header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS"); // Adicionei o método OPTIONS
+  next();
+});
 
 // Responde automaticamente às requisições OPTIONS
-app.options('*', cors(corsOptions));
+app.options('*', (req, res) => {
+  res.sendStatus(200);
+});
 
 // Middleware para aceitar JSON
 app.use(express.json());
