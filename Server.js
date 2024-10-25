@@ -17,15 +17,25 @@ const app = express();
 const corsOptions = {
   origin: 'https://lalita-sigma.vercel.app',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
-  optionsSuccessStatus: 200
+  optionsSuccessStatus: 200,
 };
 
+// Middleware de CORS
 app.use(cors(corsOptions));
+
+// Responde automaticamente às requisições OPTIONS
+app.options('*', cors(corsOptions));
+
+// Middleware para aceitar JSON
 app.use(express.json());
+
+// Rotas
 app.use('/Produtos', routesProduct);
 app.use('/Vendas', routesVendas);
 app.use('/Clientes', routesCliente);
 app.use(errorHandler);
+
+// Rota 404 para rotas inexistentes
 app.use((req, res) => {
   res.status(404).json({ message: 'Rota não encontrada' });
 });
@@ -36,7 +46,7 @@ const startServer = async () => {
 
     if (!fs.existsSync(controlFilePath)) {
       await sequelize
-        .sync({ force: true }) // Se deseja forçar a recriação das tabelas
+        .sync({ force: true }) // Define se deseja forçar a recriação das tabelas
         .then(() => {
           console.log('Database synchronized');
           fs.writeFileSync(controlFilePath, 'Database initialized.');
@@ -48,9 +58,8 @@ const startServer = async () => {
       console.log('Database already initialized.');
     }
 
-    
     http.createServer(app).listen(PORT, () => {
-      Logger.info(`Server is running on https://localhost:${PORT}`);
+      Logger.info(`Server is running on http://localhost:${PORT}`);
     });
   } catch (error) {
     Logger.error('Unable to connect to the database:', error);
