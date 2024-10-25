@@ -57,6 +57,7 @@ class produtoController {
     try {
       const { nome, descricao, preco, precovenda, quantidade } = req.body;
       const productid = req.params;
+      logger.info(productid);
       const produto = {
         productid,
         nome,
@@ -65,6 +66,7 @@ class produtoController {
         precovenda,
         quantidade,
       };
+      logger.info(produto);
       await ProdutoService.update(produto);
       res
         .status(200)

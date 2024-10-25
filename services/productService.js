@@ -54,6 +54,8 @@ class ProdutoService {
 
   // Método para atualizar o produto
   static async update(produto) {
+    logger.info(produto.productid);
+    logger.info(produto);
     const produtoRef = ref(db, `produtos/${produto.productid}`);
     produto.updatedAt = new Date().toISOString(); // Atualiza a data de modificação
     try {
