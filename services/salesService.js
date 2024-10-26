@@ -97,8 +97,8 @@ class VendaService {
   }
 
   // Método para obter todos os itens de uma Venda
-  static async getItems(VendaId) {
-    const itensRef = ref(db, `Vendas/${VendaId}/itens`);
+  static async getItems(Vendaid) {
+    const itensRef = ref(db, `Vendas/${Vendaid}/itens`);
     try {
       const snapshot = await get(itensRef);
       if (snapshot.exists()) {
