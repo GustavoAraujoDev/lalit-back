@@ -47,12 +47,12 @@ class VendaController {
 
   // Método para obter uma venda específica por ID
   static async getById(req, res) {
-    const { vendaId } = req.params;
+    const { Vendaid } = req.params;
 
     try {
-      const venda = await VendaService.getById(vendaId);
-      logger.info(`Venda recuperada com sucesso: ${JSON.stringify(venda)}`);
-      return res.status(200).json(venda);
+      await VendaService.getById(Vendaid);
+      logger.info(`Venda recuperada com sucesso: ${JSON.stringify(Vendaid)}`);
+      return res.status(200).json(Vendaid);
     } catch (error) {
       logger.error(`Erro ao buscar a venda: ${error.message}`);
       return res
