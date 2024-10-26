@@ -18,7 +18,7 @@ class VendaController {
     );
     try {
       await VendaService.create(venda);
-      await VendaController.createItem(items, venda.Vendaid, res);
+      await VendaController.createItem(items, venda.Vendaid);
       logger.info(`Venda criada com sucesso: ${JSON.stringify(venda)}`);
       return res
         .status(201)
@@ -99,7 +99,7 @@ class VendaController {
   }
 
   // Método para adicionar itens à venda
-  static async createItem(items, vendaid, res) {
+  static async createItem(items, vendaid) {
     try {
       for (const item of items) {
         const { productid, nome, descricao, preco, precovenda, quantidade } =
@@ -121,16 +121,8 @@ class VendaController {
         );
       }
 
-      // Responder sucesso após adicionar todos os itens
-      res.status(201).json({ message: 'Itens adicionados com sucesso!' });
     } catch (error) {
       logger.error(`Erro ao adicionar itens à venda: ${error.message}`);
-      return res
-        .status(500)
-        .json({
-          message: 'Erro ao adicionar itens à venda',
-          error: error.message,
-        });
     }
   }
 

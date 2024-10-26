@@ -10,21 +10,44 @@ const PORT = 6060;
 const sequelize = require('./config/dbconfig');
 const Logger = require('./config/logger');
 const http = require('http');
+const bodyParser = require('body-parser');
 
 const app = express();
+// Middleware para fazer o parsing do corpo da requisição
+app.use(bodyParser.json());
 
-// Middleware de CORS
-const corsOptions = {
-  origin: '*', // Permitir todas as origens
-  methods: '*', // Métodos permitidos
-  allowedHeaders: '*', 
-  preflightContinue: false,
-  optionsSuccessStatus: 204, // Cabeçalhos permitidos
-};
+// Lista de origens permitidas
+const allowedOrigins = [
+    'https://lalita-sigma.vercel.app',
+    '*' // Adicione mais origens conforme necessário
+];
+
+// Middleware para CORS manual
+app.use((req, res, next) => {
+    const origin = req.headers.origin;
+
+    // Verifica se a origem da requisição é permitida
+    if (allowedOrigins.includes(origin)) {
+        res.setHeader('Access-Control-Allow-Origin', origin);
+    }
+
+    // Permitir métodos
+    res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
+    
+    // Permitir cabeçalhos
+    res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+
+    // Se for uma requisição preflight, responder com 204
+    if (req.method === 'OPTIONS') {
+        return res.sendStatus(204);
+    }
+
+    // Prosseguir com o próximo middleware ou rota
+    next();
+});
 
 // Aplicar o middleware CORS
-app.use(cors(corsOptions));
-app.options('*', cors(corsOptions)); // Responder a todas as OPTIONS
+app.use(cors()); // Responder a todas as OPTIONS
 
 // Middleware para aceitar JSON
 app.use(express.json());
