@@ -407,3 +407,5 @@ Validation error: Telefone must be a valid phone number
 2024-10-26T00:51:37.074Z [INFO]: 11
 2024-10-26T00:51:37.075Z [INFO]: [object Object]
 2024-10-26T00:51:39.246Z [INFO]: Produto atualizado com sucesso!
+2024-10-26T11:54:08.952Z [INFO]: Database already initialized.
+2024-10-26T11:54:09.027Z [INFO]: Server is running on http://localhost:6060

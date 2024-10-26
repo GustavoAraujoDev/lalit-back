@@ -6,12 +6,12 @@ require('dotenv').config();
 
 // Sua configuração do Firebase
 const firebaseConfig = {
-  apiKey: 'AIzaSyAXDfdRG9H2rK2mEnCUaXLMVuHObWfvCsE',
-  authDomain: 'testes-19dc4.firebaseapp.com',
-  projectId: 'testes-19dc4',
-  storageBucket: 'testes-19dc4.appspot.com',
-  messagingSenderId: '400866154921',
-  appId: '1:400866154921:web:ba0e427bf2243030334cb8',
+  apiKey: "AIzaSyDBt24CSYkeY1_bPnePe6Ht_FY2BtNImos",
+  authDomain: "lalitaapp-97f70.firebaseapp.com",
+  projectId: "lalitaapp-97f70",
+  storageBucket: "lalitaapp-97f70.appspot.com",
+  messagingSenderId: "885008069777",
+  appId: "1:885008069777:web:0bb922fc096c6c52433b30"
 };
 
 // Inicializando o Firebase
