@@ -18,7 +18,7 @@ app.use(bodyParser.json());
 
 // Lista de origens permitidas
 const allowedOrigins = [
-    'https://lalita-sigma.vercel.app',
+    'https://lalita-tau.vercel.app',
     '*' // Adicione mais origens conforme necessário
 ];
 
