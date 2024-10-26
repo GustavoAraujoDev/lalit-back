@@ -84,11 +84,11 @@ class VendaController {
 
   // Método para deletar uma venda
   static async delete(req, res) {
-    const { vendaId } = req.params;
+    const { Vendaid } = req.params;
 
     try {
-      await VendaService.delete(vendaId);
-      logger.info(`Venda deletada com sucesso: ${vendaId}`);
+      await VendaService.delete(Vendaid);
+      logger.info(`Venda deletada com sucesso: ${Vendaid}`);
       return res.status(204).send(); // Retorna 204 No Content
     } catch (error) {
       logger.error(`Erro ao deletar venda: ${error.message}`);
